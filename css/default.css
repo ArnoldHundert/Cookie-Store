@@ -1,0 +1,134 @@
+h1{
+	text-align: center;
+	text-decoration: underline;
+}
+#choiceQ{
+	text-align: center;
+	font-size: 22px;
+}
+#cookFlav{
+	position: absolute;
+	top: 146px;
+	left: 400px;
+
+	display: inline-block;
+	font-size: 35px;
+	text-decoration: underline;
+}
+#qty{
+	position: absolute;
+	top: 146px;
+	left: 650px;
+
+	display: inline-block;
+	font-size: 35px;
+	text-decoration: underline;
+}
+#total{
+	position: absolute;
+	top: 146px;
+	left: 820px;
+
+	display: inline-block;
+	font-size: 35px;
+	text-decoration: underline;
+}
+/********** Sugar Cookie **********/
+#choice1{
+	position: absolute;
+	top: 190px;
+
+	font-size: 35px;
+	color: grey;
+	margin-left: 430px;
+}
+#sugarAmt{
+	display: inline-block;
+	font-size: 15px;
+	text-align: center;
+	color: grey;
+	margin-left: 155px;
+	width: 30px;
+}
+#sugarOrder{
+	position: absolute;
+	top: 200px;
+	left: 910px;
+
+	font-size: 25px;
+	color: grey;
+}
+/********** Chocolate Cookie **********/
+#choice2{
+	position: absolute;
+	top: 230px;
+
+	font-size: 35px;
+	color: brown;
+	margin-left: 430px;
+}
+#chocAmt{
+	display: inline-block;
+	font-size: 15px;
+	text-align: center;
+	color: grey;
+	margin-left: 95px;
+	width: 30px;
+}
+#chocolateOrder{
+	position: absolute;
+	top: 240px;
+	left: 910px;
+
+	font-size: 25px;
+	color: grey;
+}
+/********** Lemon Cookie **********/
+#choice3{
+	position: absolute;
+	top: 270px;
+
+	font-size: 35px;
+	color: yellow;
+	margin-left: 430px;
+	-webkit-text-stroke-width:1px;
+	-webkit-text-stroke-color:black;
+}
+#lemAmt{
+	display: inline-block;
+	font-size: 15px;
+	text-align: center;
+	color: grey;
+	margin-left: 138px;
+	width: 30px;
+}
+#lemonOrder{
+	position: absolute;
+	top: 280px;
+	left: 910px;
+
+	font-size: 25px;
+	color: grey;
+}
+/***********************************/
+#usrInput{
+	position: absolute;
+	top: 350px;
+	margin-left: 600px;
+
+	display: inline-block;
+	font-size: 28px;
+}
+#clrInput{
+	position: absolute;
+	top: 430px;
+	margin-left: 635px;
+
+	display: inline-block;
+	font-size: 28px;
+	/*margin-top: 20px;*/
+	/*margin-left: 110px;*/
+}
+
+
+

@@ -25,25 +25,18 @@
 // * Clear their cookie count completely in case they're feeling guilty
 
 
-// document.cookie = "hello=test"
-
-
 window.addEventListener("load",function(){
 	myFunction();
 	function myFunction() {
 		document.getElementById("sugarAmt").focus();
-		// document.cookie = "Sugar=0";
+
+		Cookies.set("Sugar", "0");
 		Cookies.set("Chocolate", "0");
 		Cookies.set("Lemon", "0");
-Cookies.set("Test Key", "Arnold Hundert")
-Cookies.get("Test Key")
 
-document.cookie = "username=John Doe";
-var x = document.cookie;
-
-		// document.getElementById("sugarOrder").innerHTML = Cookies.get("Sugar");
-		// document.getElementById("chocolateOrder").innerHTML = Cookies.get("Chocolate");
-		// document.getElementById("lemonOrder").innerHTML = Cookies.get("Lemon");
+		document.getElementById("sugarOrder").innerHTML = Cookies.get("Sugar");
+		document.getElementById("chocolateOrder").innerHTML = Cookies.get("Chocolate");
+		document.getElementById("lemonOrder").innerHTML = Cookies.get("Lemon");
 	}
 	document.getElementById("usrInput").addEventListener("click", function(){
 		// var sugarCookie = parseInt(document.getElementById("sugarAmt").innerHTML);

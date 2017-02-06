@@ -20,9 +20,9 @@
 // * Thoughtful styling added
 // * Interactive and fun for the user to use
 // * A user should be able to:
-// * Grab a cookie flavor, which increments their cookie count by one
-// * Come back to the page and see how many cookies they've grabbed so far
-// * Clear their cookie count completely in case they're feeling guilty
+// 	* Grab a cookie flavor, which increments their cookie count by one
+// 	* Come back to the page and see how many cookies they've grabbed so far
+// 	* Clear their cookie count completely in case they're feeling guilty
 
 
 window.addEventListener("load",function(){

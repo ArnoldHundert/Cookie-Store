@@ -1,14 +1,43 @@
-h1{
-	text-align: center;
+#myHeading{
+	position: fixed;
+	top: 35px;
+	left: 580px;
+
+	display: inline-block;
+	font-size: 48px;
+	color: white;
 	text-decoration: underline;
 }
 #choiceQ{
-	text-align: center;
+	position: fixed;
+	top: 100px;
+	left: 180px;
+
+	display: inline-block;
 	font-size: 22px;
 }
+#cookieMonster{
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+#myBox{
+	position: fixed;
+	top: 170px;
+	left: 365px;
+	height: 410px;
+	width: 700px;
+
+	background-color: #ffad33;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 18px;
+	opacity: .5;
+}
 #cookFlav{
-	position: absolute;
-	top: 146px;
+	position: fixed;
+	top: 196px;
 	left: 400px;
 
 	display: inline-block;
@@ -16,8 +45,8 @@ h1{
 	text-decoration: underline;
 }
 #qty{
-	position: absolute;
-	top: 146px;
+	position: fixed;
+	top: 196px;
 	left: 650px;
 
 	display: inline-block;
@@ -25,8 +54,8 @@ h1{
 	text-decoration: underline;
 }
 #total{
-	position: absolute;
-	top: 146px;
+	position: fixed;
+	top: 196px;
 	left: 820px;
 
 	display: inline-block;
@@ -35,8 +64,8 @@ h1{
 }
 /********** Sugar Cookie **********/
 #choice1{
-	position: absolute;
-	top: 190px;
+	position: fixed;
+	top: 240px;
 
 	font-size: 35px;
 	color: white;
@@ -53,8 +82,8 @@ h1{
 	width: 30px;
 }
 #sugarOrder{
-	position: absolute;
-	top: 200px;
+	position: fixed;
+	top: 250px;
 	left: 910px;
 
 	font-size: 25px;
@@ -62,8 +91,8 @@ h1{
 }
 /********** Chocolate Cookie **********/
 #choice2{
-	position: absolute;
-	top: 230px;
+	position: fixed;
+	top: 280px;
 
 	font-size: 35px;
 	color: brown;
@@ -80,8 +109,8 @@ h1{
 	width: 30px;
 }
 #chocolateOrder{
-	position: absolute;
-	top: 240px;
+	position: fixed;
+	top: 290px;
 	left: 910px;
 
 	font-size: 25px;
@@ -89,8 +118,8 @@ h1{
 }
 /********** Lemon Cookie **********/
 #choice3{
-	position: absolute;
-	top: 270px;
+	position: fixed;
+	top: 320px;
 
 	font-size: 35px;
 	color: yellow;
@@ -107,8 +136,8 @@ h1{
 	width: 30px;
 }
 #lemonOrder{
-	position: absolute;
-	top: 280px;
+	position: fixed;
+	top: 330px;
 	left: 910px;
 
 	font-size: 25px;
@@ -118,16 +147,16 @@ h1{
 /*        Button Styling*/
 /***********************************/
 #orderInput{
-	position: absolute;
-	top: 350px;
+	position: fixed;
+	top: 430px;
 	margin-left: 600px;
 
 	display: inline-block;
 	font-size: 28px;
 }
 #clrOrderInput{
-	position: absolute;
-	top: 430px;
+	position: fixed;
+	top: 500px;
 	margin-left: 633px;
 
 	display: inline-block;

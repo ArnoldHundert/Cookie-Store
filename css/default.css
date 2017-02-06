@@ -39,14 +39,16 @@ h1{
 	top: 190px;
 
 	font-size: 35px;
-	color: grey;
+	color: white;
 	margin-left: 430px;
+	-webkit-text-stroke-width:1px;
+	-webkit-text-stroke-color:black;
 }
 #sugarAmt{
 	display: inline-block;
 	font-size: 15px;
 	text-align: center;
-	color: grey;
+	color: black;
 	margin-left: 155px;
 	width: 30px;
 }
@@ -56,7 +58,7 @@ h1{
 	left: 910px;
 
 	font-size: 25px;
-	color: grey;
+	color: black;
 }
 /********** Chocolate Cookie **********/
 #choice2{
@@ -66,12 +68,14 @@ h1{
 	font-size: 35px;
 	color: brown;
 	margin-left: 430px;
+	-webkit-text-stroke-width:1px;
+	-webkit-text-stroke-color:black;
 }
-#chocAmt{
+#chocolateAmt{
 	display: inline-block;
 	font-size: 15px;
 	text-align: center;
-	color: grey;
+	color: black;
 	margin-left: 95px;
 	width: 30px;
 }
@@ -81,7 +85,7 @@ h1{
 	left: 910px;
 
 	font-size: 25px;
-	color: grey;
+	color: black;
 }
 /********** Lemon Cookie **********/
 #choice3{
@@ -94,11 +98,11 @@ h1{
 	-webkit-text-stroke-width:1px;
 	-webkit-text-stroke-color:black;
 }
-#lemAmt{
+#lemonAmt{
 	display: inline-block;
 	font-size: 15px;
 	text-align: center;
-	color: grey;
+	color: black;
 	margin-left: 138px;
 	width: 30px;
 }
@@ -108,10 +112,12 @@ h1{
 	left: 910px;
 
 	font-size: 25px;
-	color: grey;
+	color: black;
 }
 /***********************************/
-#usrInput{
+/*        Button Styling*/
+/***********************************/
+#orderInput{
 	position: absolute;
 	top: 350px;
 	margin-left: 600px;
@@ -119,15 +125,13 @@ h1{
 	display: inline-block;
 	font-size: 28px;
 }
-#clrInput{
+#clrOrderInput{
 	position: absolute;
 	top: 430px;
-	margin-left: 635px;
+	margin-left: 633px;
 
 	display: inline-block;
 	font-size: 28px;
-	/*margin-top: 20px;*/
-	/*margin-left: 110px;*/
 }
 
 

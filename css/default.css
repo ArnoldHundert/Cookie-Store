@@ -78,7 +78,7 @@
 	font-size: 15px;
 	text-align: center;
 	color: black;
-	margin-left: 155px;
+	margin-left: 145px;
 	width: 30px;
 }
 #sugarOrder{
@@ -105,7 +105,7 @@
 	font-size: 15px;
 	text-align: center;
 	color: black;
-	margin-left: 95px;
+	margin-left: 85px;
 	width: 30px;
 }
 #chocolateOrder{
@@ -132,7 +132,7 @@
 	font-size: 15px;
 	text-align: center;
 	color: black;
-	margin-left: 138px;
+	margin-left: 128px;
 	width: 30px;
 }
 #lemonOrder{
@@ -144,8 +144,44 @@
 	color: black;
 }
 /***********************************/
-/*        Button Styling*/
+/*        Buttons Styling*/
 /***********************************/
+#sugarPlusOne{
+	position: fixed;
+	top: 253px;
+	margin-left: 720px;
+
+	display: inline-block;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 12px;
+	font-size: 14px;
+}
+#chocolatePlusOne{
+	position: fixed;
+	top: 293px;
+	margin-left: 720px;
+
+	display: inline-block;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 12px;
+	font-size: 14px;
+}
+#lemonPlusOne{
+	position: fixed;
+	top: 333px;
+	margin-left: 720px;
+
+	display: inline-block;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 12px;
+	font-size: 14px;
+}
 #orderInput{
 	position: fixed;
 	top: 430px;
